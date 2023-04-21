@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="main-nav">
+    <ul class="main-nav__tabs">
+        <li class="main-nav__tab"><button class="main-nav__button home">Home</button></li>
+        <li class="main-nav__tab"><button class="main-nav__button home">Messages</button></li>
+        <li class="main-nav__tab"><button class="main-nav__button home">Schedule</button></li>
+    </ul>
+</nav>
+<main>
+    <article class="clock">
+        <section class="clock__local"><span class="local-time">00:00:00</span><span class="time-label">Local Time</span></section>
+        <section class="clock__ground-control"><span class="ground-control-time">00:00:00</span><span class="time-label">@Ground Control</span></section>
+    </article>
+    <article class="schedule">
+        <section class="schedule__tasks">
+            <h3 class="schedule__heading">Current Task:</h3>
+            <section class="task__current">
+                <button class="previous">&lt</button>
+                <p class="task__description">Do Space Dishes</p>
+                <button class="next">&gt</button>
+            </section>
+            <section class="task__next">
+                
+            </section>
+        </section>
+    </article>
+</main>
+<nav class="aux-nav">
+    <ul class="aux-nav__tabs">
+        <li class="aux-nav__tab"><button class="config-button">Config</button></li>
+        <li class="aux-nav__tab"><button class="comms-status-button">Comms Status</button></li>
+    </ul>
+</nav>
+</body>
+</html>
